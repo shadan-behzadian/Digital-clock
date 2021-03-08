@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("./pattern.png");
+}
+
+.main {
+  background-color: #ccc;
+  width: 400px;
+  height: 175px;
+  margin: 200px auto;
+  position: relative;
+  padding: 30px;
+  border-radius: 15%;
+}
+
+.badge {
+  background-color: rgb(109, 136, 109);
+  width: fit-content;
+  padding: 7px;
+  border-radius: 7px;
+  position: absolute;
+  top: -25px;
+  left: 30%;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-family: "Architects Daughter", cursive;
+}
+
+.clock {
+  text-align: center;
+  background-color: #ebebeb;
+  font-size: 50px;
+  height: 100%;
+  padding: 25px;
+  border-radius: 10%;
+  font-family: "Architects Daughter", cursive;
+}
+
+#day {
+  text-align: center;
+  background-color: rgb(109, 136, 109);
+  font-size: 30px;
+  height: fit-content;
+  padding: 15px;
+  border-radius: 10%;
+  font-family: "Architects Daughter", cursive;
+  margin-top: 40px;
+}
